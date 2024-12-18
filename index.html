@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+      <meta charset="UTF-8">
+        <title>掲示板</title>
+    </head>
+    <body>
+        <form action="" method="post">
+           <label for="name">名前:</label>
+           <input type="text" name="name" id="name">
+           <br>
+           <label for="comment">コメント:</label>
+           <textarea name="comment" id="comment"></textarea>
+           <br>
+           <input type="submit" value="投稿">
+        </form>
+        <p><a href="http://www.kofuminami-h.ed.jp/?doing_wp_cron=1734493787.4512529373168945312500">
+          ホームへ
+      </a></p>
+<div id="posts">
+  <?= $posts ?>
+</div>
+    </body>
+</html>
